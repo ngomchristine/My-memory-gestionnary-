@@ -31,7 +31,7 @@ typedef struct page
     trame contenu ;// sa valeur
 }page ;
 
-trame RAM[8];
+trame RAM[8];  // notre memoire physique possède 8 trames memoires
 page table_pages[20] ; // notre table de pages contient 20 pages
 /*for(i=0; i<=5;i++)
 {
